@@ -1,4 +1,4 @@
-package com.illanes.myapplication02.ui.theme
+package com.illanes.myapplication01.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

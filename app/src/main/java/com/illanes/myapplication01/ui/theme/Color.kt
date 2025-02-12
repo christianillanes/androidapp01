@@ -1,4 +1,4 @@
-package com.illanes.myapplication02.ui.theme
+package com.illanes.myapplication01.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

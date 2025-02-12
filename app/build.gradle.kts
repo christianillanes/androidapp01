@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.illanes.myapplication02"
+    namespace = "com.illanes.myapplication01"
     compileSdk = 35
 
     defaultConfig {

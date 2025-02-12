@@ -10,7 +10,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.illanes.myapplication02"
+        applicationId = "com.illanes.myapplication01"
         minSdk = 27
         targetSdk = 35
         versionCode = 1

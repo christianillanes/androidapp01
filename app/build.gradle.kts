@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.illanes.myapplication01"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.illanes.myapplication01"
         minSdk = 27
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 

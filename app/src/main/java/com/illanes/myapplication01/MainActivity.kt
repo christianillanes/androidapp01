@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
         factoryProducer = {
             object : ViewModelProvider.Factory {
                 override fun <T : ViewModel> create(modelClass: Class<T>): T {
+                    @Suppress("UNCHECKED_CAST")
                     return ContactViewModel(db.dao) as T
                 }
             }

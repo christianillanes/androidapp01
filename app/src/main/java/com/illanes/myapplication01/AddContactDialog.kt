@@ -45,7 +45,8 @@ fun AddContactDialog(
                     },
                     placeholder = {
                         Text(text = "First name")
-                    }
+                    },
+                    singleLine = true
                 )
                 TextField(
                     value = state.lastName,
@@ -54,7 +55,8 @@ fun AddContactDialog(
                     },
                     placeholder = {
                         Text(text = "Last name")
-                    }
+                    },
+                    singleLine = true
                 )
                 TextField(
                     value = state.phoneNumber,
@@ -63,7 +65,8 @@ fun AddContactDialog(
                     },
                     placeholder = {
                         Text(text = "Phone number")
-                    }
+                    },
+                    singleLine = true
                 )
                 Box(
                     modifier = Modifier.fillMaxWidth(),

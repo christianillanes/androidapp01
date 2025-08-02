@@ -35,7 +35,8 @@ fun AddContactDialog(
             ) {
                 TextField(
                     value = "Add contact",
-                    onValueChange = {}
+                    onValueChange = {},
+                    readOnly = true
                 )
                 TextField(
                     value = state.firstName,
